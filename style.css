@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#video{
+    position: fixed;
+   min-width: 100%;
+   min-height: 100%;
+}
+.container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    
+    color : #FFF;
+    padding: 100px 60px;
+    /* height: 100vh; */
+    left: 30%;
+    top: 30%;
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 0.3em;
+}
+
+button{
+    border-color: #FFF;
+    border-radius: 40%;
+    background: rgba(0, 0, 0, 0);
+    color: #FFF;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+#play{
+    margin-left: 80px;
+}
